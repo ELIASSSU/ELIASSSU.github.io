@@ -243,3 +243,27 @@ button:hover {
 .navbar button:hover {
     background-color: #4b97a3;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    #add-product-form .input-row {
+        flex-direction: column;
+    }
+
+    #add-product-form .price-container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar button {
+        margin: 0.5em 0;
+    }
+
+    #show-form-button, #close-form-button {
+        position: static;
+        margin-top: 1em;
+    }
+}
