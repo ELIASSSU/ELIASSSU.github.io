@@ -266,4 +266,20 @@ button:hover {
         position: static;
         margin-top: 1em;
     }
+
+    #inventory-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    #inventory-table th, #inventory-table td {
+        display: inline-block;
+        width: auto;
+    }
+}
+    #show-form-button, #close-form-button {
+        position: static;
+        margin-top: 1em;
+    }
 }
